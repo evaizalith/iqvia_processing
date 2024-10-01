@@ -110,10 +110,10 @@ def main():
         for filename in filenames:
             if filename.endswith('.csv'):
                 files.append(filename)
-    #            n_rows += countData(input, filename)
+                n_rows += countData(input, filename)
             i = i + 1
             printProgressPercent(i, n_files)
-    n_rows = 190610117
+
     print(f"\nCounted {n_rows} rows")
 
     intermediateCreated = False
